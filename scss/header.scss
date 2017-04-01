@@ -1,0 +1,38 @@
+.header-component {
+  flex: 1;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  border-top: solid 3px black;
+  padding-top: 1rem;
+
+  @media all and (max-width: 690px) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.75);
+
+    @media all and (max-width: 690px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.header-component__intructions {
+  margin: 1.5rem 0;
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(0,0,0,.5);
+  display: none;
+
+  @media all and (max-width: 690px) {
+    margin: 1rem 0;
+  }
+}
