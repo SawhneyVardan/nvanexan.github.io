@@ -5,7 +5,9 @@
   position: relative;
 
   h1 {
-    font-size: 8rem;
+    font-size: 6rem;
+    word-wrap: break-word;
+    line-height: .8;
   }
 
   .meta {
