@@ -18,10 +18,49 @@
 }
 
 .post-content {
-  p {
-    line-height: 1.5;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
   }
 
+  p, ul, ol {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  ul, ol {
+    padding-left: 2em;
+  }
+
+  pre, code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    word-wrap: normal;
+  }
+
+  a {
+    color: #067df7;
+    text-decoration: none;
+
+    &:hover {
+      color: #bd10e0;
+    }
+  }
+}
+
+.post-footer {
   a {
     color: #067df7;
     text-decoration: none;
