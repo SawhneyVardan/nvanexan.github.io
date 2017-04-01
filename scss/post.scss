@@ -1,0 +1,33 @@
+.post-header {
+  padding: 2rem 0;
+  border-bottom: solid 1px #ddd;
+  margin-bottom: 2rem;
+  position: relative;
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  .meta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ddd;
+    font-size: 12px;
+  }
+}
+
+.post-content {
+  p {
+    line-height: 1.5;
+  }
+
+  a {
+    color: #067df7;
+    text-decoration: none;
+
+    &:hover {
+      color: #bd10e0;
+    }
+  }
+}
