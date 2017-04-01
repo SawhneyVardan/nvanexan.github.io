@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'/>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+
+  <div class='wrapper'>
+    <div class='main-content'>
+      <div class='header-container'>
+        <header class='header-component'>
+          <h1 class='header-component__name'>Nicholas Van Exan</h1>
+          <h2 class='header-component__title'>Privacy Lawyer &amp; Consultant</h2>
+        </header>
+        <nav class='global-nav'>
+          <div class='nav-collection'>
+            <div class='nav-item'>
+              <a class='animated-line'>About</a>
+            </div>
+            <div class='nav-item'>
+              <a class='animated-line'>Legal Experience</a>
+            </div>
+            <div class='nav-item'>
+              <a class='animated-line'>Tech Experience</a>
+            </div>
+          </div>
+          <div class='nav-collection'>
+            <div class='nav-item'>
+              <a class='animated-line'>Services</a>
+            </div>
+            <div class='nav-item'>
+              <a class='animated-line'>Why Nick</a>
+            </div>
+            <div class='nav-item'>
+              <a class='animated-line'>Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class='content-container'>
+        {{ content }}
+      </div>
+      <section class='section-item contact-component'>
+        <div class='section-content'>
+          <ul class='contact-component__list'>
+            <li class='contact-component__list-item'>
+              <span class='label'>Email:</span>
+              <span class='value'><a href='mailto:nick@vanexan.ca'>nick@vanexan.ca</a></span>
+            </li>
+            <li class='contact-component__list-item'>
+              <span class='label'>Twitter:</span>
+              <span class='value'><a href='https://twitter.com/nvanexan' target='_blank'>@nvanexan</a></span>
+            </li>
+            <li class='contact-component__list-item'>
+              <span class='label'>Mobile:</span>
+              <span class='value'><a href='tel:1-905-960-0263'>+1.905.960.0263</a></span>
+            </li>
+            <li class='contact-component__list-item'>
+              <span class='label'>PGP:</span>
+              <span class='value'><a href='/5FCB58BA.asc'>1B8F 3C27 FC62 8375 D693  A4AE DAF3 AA5F 5FCB 58BA</a></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
