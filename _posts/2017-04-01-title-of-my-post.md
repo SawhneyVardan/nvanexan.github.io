@@ -10,7 +10,7 @@ A lot has been written in the last couple years about [Canada's Anti-Spam Legisl
 
 Section 8(1) of CASL prohibits a person from, in the course of a commercial activity, installing or causing to be installed "a computer program on any other person’s computer system or, having so installed or caused to be installed a computer program, cause an electronic message to be sent from that computer system, unless" the person has obtained "the express consent of the owner or an authorized user of the computer system and complies with subsection 11(5) (the withdrawal of consent provision)".
 
-The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^1] 
+The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^1]
 
 A person is deemed to "expressly consent to the installation of a computer program" if:
 
@@ -34,17 +34,17 @@ The implication here is that a cookie or JavaScript code is in fact a kind of co
 
 ### Application to Web Tracking and Online Behavioural Advertising
 
-Many first party content publishers and third party advertising networks use cookies and JavaScript code to track visitors for various purposes. 
+Many first party content publishers and third party advertising networks use cookies and JavaScript code to track visitors for various purposes.
 
 Increasingly, the ad tech industry is moving away from more benign cookies towards newer "fingerprinting" techniques that leverage actual JavaScript code to  track users with unique identifiers across browsers and devices.
 
-These newer fingerprinting techniques rely on JavaScript code that runs quickly in the background and instructs browsers to perform a variety of tasks to learn more about a user's device properties. Very few devices are configured identically. Accordingly, these device configuration properties can be mapped to create a unique identifier for a user (thus the term 'fingerprinting'). 
+These newer fingerprinting techniques rely on JavaScript code that runs quickly in the background and instructs browsers to perform a variety of tasks to learn more about a user's device properties. Very few devices are configured identically. Accordingly, these device configuration properties can be mapped to create a unique identifier for a user (thus the term 'fingerprinting').
 
 The tasks run by fingerprinting scripts draw on operating-system and hardware resources, including graphics cards, multiple CPU cores, audio cards, and installed fonts—that are slightly different for each computer. Some properties such as IP address, operating system, user agent, language and HTTP accept headers, can be passively learned from network traffic. But other properties like CPU type, time zone, display settings and installed fonts, require active discovery through a script or plug-in.
 
-Steven Englehardt and Arvin Narayanan's comprehensive 2016 research into online tracking shows that many third party advertisers are using such device fingerprint techniques and in some cases using JavaScript code to abuse the new HTML5 APIs such as the Battery Status API and the Audio API for device fingerprinting.[^2]
+Steven Englehardt and Arvin Narayanan's comprehensive 2016 research into online tracking shows that many third party advertisers are using such device fingerprint techniques and in some cases using JavaScript code to abuse the new HTML5 APIs such as the Battery Status API and the Audio API for device fingerprinting.[^](Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/))
 
-CASL establishes a kind of strict liability for installing malware on a user's machine, subject to a test in the case of JavaScript code and cookies regarding the reasonableness of inferring that a user consented to the installation. 
+CASL establishes a kind of strict liability for installing malware on a user's machine, subject to a test in the case of JavaScript code and cookies regarding the reasonableness of inferring that a user consented to the installation.
 
 In many cases, users are not made aware of JavaScript code being run to assist in device fingerprinting by first party content publishers or third party advertisers. Indeed, most privacy policies on first party sites do not even communicate who the third party advertisers are, the nature of the tracking technologies they are using, or the details of the third party privacy policies, which may be altogether different than those of the first party content publisher. In these circumstances, the reasonableness of inferring user consent to the installation of JavaScript tracking code becomes far more debatable, opening companies up to liability for installing or "causing to be installed" a computer program on a user's computer system without the user's express consent.
 
@@ -59,6 +59,7 @@ First party content providers and third party advertising publishers will want t
 -----
 
 [^1]: Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.
-[^2]: Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/)
+
 [^3]: CASL, at ss. 47 to 51, 55.
+
 [^4]: CASL, ss. 51(1) CASL.
