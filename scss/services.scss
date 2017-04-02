@@ -12,13 +12,21 @@
     background: black;
     color: white;
     margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .material-icons {
+      flex: 1;
+    }
   }
 
   .card-content {
     flex: 1;
 
     h3 {
-      margin: 1rem 0;
+      margin: .5rem 0;
+      padding: .5rem;
     }
   }
 }
