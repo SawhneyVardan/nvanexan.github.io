@@ -12,6 +12,7 @@ title: Blog
       Some thoughts on privacy law, data protection and software development.
     </p>
     <hr/>
+    {% if site.posts.length > 0 %}
     <ul class="posts">
       {% for post in site.posts %}
         <li>
@@ -19,5 +20,8 @@ title: Blog
         </li>
       {% endfor %}
     </ul>
+    {% else %}
+    <p>No posts yet. Check back soon!</p>
+    {% endif %}
   </div>
 </div>
