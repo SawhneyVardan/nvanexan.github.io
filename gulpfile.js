@@ -30,7 +30,7 @@ gulp.task('watch', function () {
 
 gulp.task('css', function () {
   var scssStream = gulp.src(input)
-    .pipe(sass())
+    .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(concat('scss-files.scss'));
 
   var mergedStream = merge(scssStream)
