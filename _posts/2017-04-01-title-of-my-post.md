@@ -10,7 +10,7 @@ A lot has been written in the last couple years about [Canada's Anti-Spam Legisl
 
 Section 8(1) of CASL prohibits a person from, in the course of a commercial activity, installing or causing to be installed "a computer program on any other person’s computer system or, having so installed or caused to be installed a computer program, cause an electronic message to be sent from that computer system, unless" the person has obtained "the express consent of the owner or an authorized user of the computer system and complies with subsection 11(5) (the withdrawal of consent provision)".
 
-The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^](Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.)
+The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^1]
 
 A person is deemed to "expressly consent to the installation of a computer program" if:
 
@@ -42,7 +42,7 @@ These newer fingerprinting techniques rely on JavaScript code that runs quickly 
 
 The tasks run by fingerprinting scripts draw on operating-system and hardware resources, including graphics cards, multiple CPU cores, audio cards, and installed fonts—that are slightly different for each computer. Some properties such as IP address, operating system, user agent, language and HTTP accept headers, can be passively learned from network traffic. But other properties like CPU type, time zone, display settings and installed fonts, require active discovery through a script or plug-in.
 
-Steven Englehardt and Arvin Narayanan's comprehensive 2016 research into online tracking shows that many third party advertisers are using such device fingerprint techniques and in some cases using JavaScript code to abuse the new HTML5 APIs such as the Battery Status API and the Audio API for device fingerprinting.[^](Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/))
+Steven Englehardt and Arvin Narayanan's comprehensive 2016 research into online tracking shows that many third party advertisers are using such device fingerprint techniques and in some cases using JavaScript code to abuse the new HTML5 APIs such as the Battery Status API and the Audio API for device fingerprinting.[^2]
 
 CASL establishes a kind of strict liability for installing malware on a user's machine, subject to a test in the case of JavaScript code and cookies regarding the reasonableness of inferring that a user consented to the installation.
 
@@ -50,8 +50,18 @@ In many cases, users are not made aware of JavaScript code being run to assist i
 
 ### The Coming Private Right of Action
 
-As of July 1, 2017, individuals and organizations will be entitled to institute a "private right of action" before the courts against those that contravene certain provisions of CASL, including the anti-malware provisions.[^3](CASL, at ss. 47 to 51, 55.)
+As of July 1, 2017, individuals and organizations will be entitled to institute a "private right of action" before the courts against those that contravene certain provisions of CASL, including the anti-malware provisions.[^3]
 
-The court may order compensation equal to the amount of loss or damages suffered and expenses incurred ("compensatory damages"), in addition to $200 for each contravention, up to a maximum of $1,000,000 per day of contravention ("non-compensatory damages").[^4](CASL, ss. 51(1) CASL.)
+The court may order compensation equal to the amount of loss or damages suffered and expenses incurred ("compensatory damages"), in addition to $200 for each contravention, up to a maximum of $1,000,000 per day of contravention ("non-compensatory damages").[^4]
 
 First party content providers and third party advertising publishers will want to look carefully at their current privacy policies and terms of service before July 1, 2017 to ensure that it can be reasonably inferred that users of their site, or targets of their tracking, have consented to the installation of any cookie or javascript code used for web tracking or online behavioural advertising.
+
+-----
+
+[^1]: Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.
+
+[^2]: Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/)
+
+[^3]: CASL, at ss. 47 to 51, 55.
+
+[^4]: CASL, ss. 51(1) CASL.
