@@ -9,11 +9,12 @@
     font-size: 8rem;
     word-wrap: break-word;
     color: white;
-    margin-left: -5px;
+    margin-left: -10px;
     line-height: .9;
 
     @media all and (max-width: 690px) {
       font-size: 4rem;
+      margin-left: -5px;
     }
   }
 
