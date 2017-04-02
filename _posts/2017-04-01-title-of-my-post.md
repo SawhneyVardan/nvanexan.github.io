@@ -58,10 +58,10 @@ First party content providers and third party advertising publishers will want t
 
 -----
 
-[^1]: Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.
+[^1]: *Criminal Code*, R.S.C., 1985, c. C-46, s. 342.1.
 
 [^2]: Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/)
 
-[^3]: CASL, at ss. 47 to 51, 55.
+[^3]: CASL, ss. 47 to 51, 55.
 
-[^4]: CASL, ss. 51(1) CASL.
+[^4]: CASL, ss. 51(1).
