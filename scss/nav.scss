@@ -1,12 +1,12 @@
 .global-nav {
   display: flex;
-  flex: 1;
+  flex: 0 0 60%;
   margin-bottom: 2rem;
   border-top: solid 3px #ddd;
   padding-top: 1rem;
 
   @media all and (max-width: 1070px) {
-    flex: 1;
+    flex: 0 0 60%;
   }
 
   @media all and (max-width: 690px) {
