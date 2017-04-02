@@ -1,11 +1,16 @@
 .blog-landing-container {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .blog-landing-title {
   flex: 1;
   margin-right: 5rem;
+
+  @media all and (max-width: 690px) {
+    flex: 0 0 100%;
+  }
 
   h1 {
     font-weight: 300;
@@ -13,7 +18,11 @@
 }
 
 .blog-landing-posts {
-  flex: 0 0 70%;
+  flex: 0 0 50%;
+
+  @media all and (max-width: 690px) {
+    flex: 0 0 100%;
+  }
 
   .posts {
     list-style: none;
@@ -26,7 +35,7 @@
     cursor: pointer;
     padding: .35rem 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 
     a {
       flex: 1;
