@@ -52,11 +52,17 @@ h1, h2, h3, p {
   margin: 0 0 4rem;
   border-bottom: solid 1px #ddd;
 
+  .mobile-nav-button-container {
+    margin-bottom: 2rem;
+    border-top: solid 3px #ddd;
+    padding-top: 1rem;
+    display: none;
+  }
+
   .mobile-nav-button {
     border: solid 1px #ddd;
     padding: .1rem .35rem;
     border-radius: 3px;
-    display: none;
     transition: all .2s ease;
 
     &:hover {
@@ -67,8 +73,9 @@ h1, h2, h3, p {
   @media all and (max-width: 690px) {
     margin-bottom: 2rem;
 
-    .mobile-nav-button {
+    .mobile-nav-button-container {
       flex: 0 0 auto;
+      display: flex;
     }
   }
 
