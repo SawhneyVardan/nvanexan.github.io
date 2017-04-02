@@ -14,9 +14,22 @@ title: Blog
     <hr/>
     {% for post in site.posts %}
     <div class='card'>
-      <div class='card-icon' style="background: #E91E63;">
+      <div class='card-icon {{ post.category }}'>
+        {% if post.category == 'privacy' %}
+        <i class="material-icons">vpn_key</i>
+        {% if post.category == 'litigation' %}
+        <i class="material-icons">gavel</i>
+        {% if post.category == 'security' %}
         <i class="material-icons">security</i>
-        {{ post.category }}
+        {% elsif post.category == 'design' %}
+        <i class="material-icons">pallette</i>
+        {% elsif post.category == 'programming' %}
+        <i class="material-icons">code</i>
+        {% elsif post.category == 'events' %}
+        <i class="material-icons">today</i>
+        {% else %}
+        <i class="material-icons">fiber_new</i>
+        {% endif %}
       </div>
       <div class='card-content'>
         <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
