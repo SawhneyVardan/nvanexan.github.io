@@ -52,14 +52,6 @@ h1, h2, h3, p {
   margin: 0 0 4rem;
   border-bottom: solid 1px #ddd;
 
-  @media all and (max-width: 690px) {
-    margin-bottom: 2rem;
-
-    .mobile-nav-button {
-      display: block;
-    }
-  }
-
   .mobile-nav-button {
     position: absolute;
     right: 0;
@@ -72,6 +64,14 @@ h1, h2, h3, p {
 
     &:hover {
       box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    }
+  }
+
+  @media all and (max-width: 690px) {
+    margin-bottom: 2rem;
+
+    .mobile-nav-button {
+      display: block;
     }
   }
 
