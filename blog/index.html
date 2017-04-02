@@ -13,13 +13,17 @@ title: Blog
     </p>
     <hr/>
     {% if site.posts.length > 0 %}
-    <ul class="posts">
       {% for post in site.posts %}
-        <li>
-          <span class="date">{{ post.date | date_to_string }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
+      <div class='card'>
+        <div class='card-icon' style="background: #E91E63;">
+          <i class="material-icons">security</i>
+        </div>
+        <div class='card-content'>
+          <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+          <span class="date">{{ post.date | date_to_string }}</span>
+        </div>
+      </div>
       {% endfor %}
-    </ul>
     {% else %}
     <p>No posts yet. Check back soon!</p>
     {% endif %}
