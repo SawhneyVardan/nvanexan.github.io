@@ -13,7 +13,7 @@
 }
 
 .blog-landing-posts {
-  flex: 0 0 60%;
+  flex: 0 0 70%;
 
   .posts {
     list-style: none;
@@ -21,9 +21,21 @@
 
   .posts li {
     border-bottom: solid 1px #ddd;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2px;
     transition: all .2s ease;
+    cursor: pointer;
+
+    .date {
+      background: black;
+      color: white;
+      padding: .25rem;
+      font-size: 12px;
+      margin-right: .5rem;
+    }
+
+    .title {
+
+    }
 
     &:hover {
       background: black;
