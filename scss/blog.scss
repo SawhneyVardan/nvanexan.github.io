@@ -61,6 +61,34 @@
     .card-content h3 {
       padding: 1.5rem .5rem 1rem;
     }
+
+    .card-icon {
+
+      &.privacy {
+        background: #E91E63;
+      }
+
+      &.security {
+        background: #689F38;
+      }
+
+      &.litigation {
+        background: #3F51B5;
+      }
+
+      &.design {
+        background: #FFC107;
+      }
+
+      &.programming {
+        background: #F44336;
+      }
+
+      &.events {
+        background: #2196F3;
+      }
+
+    }
   }
 
   .posts {
