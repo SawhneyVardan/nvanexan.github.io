@@ -9,17 +9,17 @@ layout: default
   <div class="blog-landing-posts">
     <div class='post-header'>
       <span class='category-icon'>
-        {% if category == 'privacy' %}
+        {% if page.category == 'privacy' %}
         <i class="material-icons">vpn_key</i>
-        {% elsif category == 'litigation' %}
+        {% elsif page.category == 'litigation' %}
         <i class="material-icons">gavel</i>
-        {% elsif category == 'security' %}
+        {% elsif page.category == 'security' %}
         <i class="material-icons">security</i>
-        {% elsif category == 'design' %}
+        {% elsif page.category == 'design' %}
         <i class="material-icons">palette</i>
-        {% elsif category == 'programming' %}
+        {% elsif page.category == 'programming' %}
         <i class="material-icons">code</i>
-        {% elsif category == 'events' %}
+        {% elsif page.category == 'events' %}
         <i class="material-icons">today</i>
         {% else %}
         <i class="material-icons">fiber_new</i>
