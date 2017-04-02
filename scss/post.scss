@@ -6,10 +6,15 @@
   background: black;
 
   h1 {
-    font-size: 6rem;
+    font-size: 8rem;
     word-wrap: break-word;
     color: white;
-    margin-left: -10px;
+    margin-left: -5px;
+    line-height: .9;
+
+    @media all and (max-width: 690px) {
+      font-size: 4rem;
+    }
   }
 
   .meta {
