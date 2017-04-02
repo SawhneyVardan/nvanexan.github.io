@@ -26,25 +26,33 @@
     cursor: pointer;
 
     a {
-      width: 100%;
+      display: flex;
+      align-items: center;
+    }
 
-      .date {
-        background: black;
-        color: white;
-        padding: .25rem;
-        font-size: 12px;
-        margin-right: .5rem;
-      }
+    .date {
+      flex: 0 0 50px;
+      background: black;
+      color: white;
+      padding: .25rem;
+      font-size: 12px;
+      margin-right: .5rem;
+      transition: all .2s ease;
+    }
 
-      .title {
-        padding: .25rem;
-      }
+    .title {
+      flex: 1;
+      padding: .25rem;
     }
 
     &:hover {
-      background: #eaecef;
+      background: black;
       color: white;
       padding-left: 1rem;
+
+      .date {
+        flex: 0 0 70px;
+      }
     }
 
     &:last-child {
