@@ -1,0 +1,23 @@
+.about-landing-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-landing-title {
+  flex: 1;
+  margin-right: 5rem;
+
+  @media all and (max-width: 690px) {
+    flex: 0 0 100%;
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.about-landing-content {
+  flex: 0 0 70%;
+}
