@@ -1,0 +1,13 @@
+.blog-landing-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.blog-landing-title {
+  flex: 1;
+  margin-right: 5rem
+}
+
+.blog-landing-posts {
+  flex: 1;
+}
