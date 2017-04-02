@@ -9,5 +9,33 @@
 }
 
 .blog-landing-posts {
-  flex: 1;
+  flex: 0 0 50%;
+
+  .posts {
+    list-style: none;
+  }
+
+  .posts li {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    transition: all .2s ease;
+
+    &:hover {
+      background: black;
+      color: white;
+      padding-left: 1rem;
+    }
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+
+  .posts li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
 }
