@@ -24,7 +24,7 @@
     color: white;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     transform: translateY(-50%);
     // bottom: -34px;
     font-size: 12px;
@@ -46,11 +46,35 @@
     color: white;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     transform: translateY(-50%);
 
     .material-icons {
       flex: 1;
+    }
+
+    &.privacy {
+      background: #E91E63;
+    }
+
+    &.security {
+      background: #689F38;
+    }
+
+    &.litigation {
+      background: #3F51B5;
+    }
+
+    &.design {
+      background: #FFC107;
+    }
+
+    &.programming {
+      background: #F44336;
+    }
+
+    &.events {
+      background: #2196F3;
     }
   }
 }
