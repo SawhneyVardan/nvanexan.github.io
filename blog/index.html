@@ -12,20 +12,18 @@ title: Blog
       Some thoughts on privacy law, data protection and software development.
     </p>
     <hr/>
-    {% if site.posts.length > 0 %}
-      {% for post in site.posts %}
-      <div class='card'>
-        <div class='card-icon' style="background: #E91E63;">
-          <i class="material-icons">security</i>
-        </div>
-        <div class='card-content'>
-          <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-          <span class="date">{{ post.date | date_to_string }}</span>
-        </div>
+    {% for post in site.posts %}
+    <div class='card'>
+      <div class='card-icon' style="background: #E91E63;">
+        <i class="material-icons">security</i>
       </div>
-      {% endfor %}
+      <div class='card-content'>
+        <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <span class="date">{{ post.date | date_to_string }}</span>
+      </div>
+    </div>
     {% else %}
     <p>No posts yet. Check back soon!</p>
-    {% endif %}
+    {% endfor %}
   </div>
 </div>
