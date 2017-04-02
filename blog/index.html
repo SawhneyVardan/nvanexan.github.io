@@ -17,11 +17,11 @@ title: Blog
       <div class='card-icon {{ post.category }}'>
         {% if post.category == 'privacy' %}
         <i class="material-icons">vpn_key</i>
-        {% if post.category == 'litigation' %}
+        {% elsif post.category == 'litigation' %}
         <i class="material-icons">gavel</i>
-        {% if post.category == 'security' %}
+        {% elsif post.category == 'security' %}
         <i class="material-icons">security</i>
-        {% elsif post.category == 'design' %}
+        {% elsif poselst.category == 'design' %}
         <i class="material-icons">pallette</i>
         {% elsif post.category == 'programming' %}
         <i class="material-icons">code</i>
