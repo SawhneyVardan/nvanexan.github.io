@@ -15,7 +15,7 @@
           <h1 class='header-component__name'><a href='/'>Nicholas Van Exan</a></h1>
           <h2 class='header-component__title'>Privacy Lawyer &amp; Consultant</h2>
         </header>
-        <nav class='global-nav'>
+        <nav class='global-nav' id="nav">
           <h3>Menu</h3>
           <div class='nav-collection'>
             <div class='nav-item'>
@@ -77,6 +77,7 @@
     var menuIsVisible = false;
     function toggleMenu() {
       menuIsVisible = !menuIsVisible;
+      document.getElementById("nav").className = menuIsVisible ? "global-nav is-open" : "global-nav";
       console.log(menuIsVisible);
     }
   </script>
