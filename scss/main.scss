@@ -50,7 +50,7 @@ h1, h2, h3, p {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 0 4rem;
-  border-bottom: solid 1px #ddd;
+  border-bottom: solid 1px #e1e4e8;
 
   .mobile-nav-button-container {
     margin-bottom: 2rem;
@@ -60,7 +60,7 @@ h1, h2, h3, p {
   }
 
   .mobile-nav-button {
-    border: solid 1px #ddd;
+    border: solid 1px #e1e4e8;
     padding: .1rem .35rem;
     border-radius: 3px;
     transition: all .2s ease;
