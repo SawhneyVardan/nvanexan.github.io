@@ -10,6 +10,7 @@
 
   @media all and (max-width: 690px) {
     flex: 0 0 100%;
+    margin-bottom: 3rem;
   }
 
   h1 {
@@ -26,6 +27,8 @@
 
   .posts {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .posts li {
@@ -39,7 +42,6 @@
 
     a {
       flex: 1;
-      padding: .25rem;
     }
 
     .date {
