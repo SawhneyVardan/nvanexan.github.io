@@ -75,12 +75,13 @@ h1, h2, h3, p {
   }
 }
 
-.animated-line {
+a {
   color: #067df7;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: opacity .3s cubic-bezier(.23,1,.32,1);
+  text-decoration: none;
 
   &::after {
     transition: all .5s cubic-bezier(.175,.885,.32,1.275);
