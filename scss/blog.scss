@@ -43,6 +43,20 @@
     border: 0;
   }
 
+  .card {
+    position: relative;
+    
+    .date {
+      background: black;
+      color: white;
+      padding: .25rem;
+      font-size: 12px;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+    }
+  }
+
   .posts {
     list-style: none;
     margin: 0;
