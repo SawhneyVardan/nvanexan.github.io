@@ -19,27 +19,30 @@
     list-style: none;
   }
 
-  .posts li a {
+  .posts li {
     border-bottom: solid 1px #ddd;
     margin-bottom: 2px;
     transition: all .2s ease;
     cursor: pointer;
-    padding: .25rem;
 
-    .date {
-      background: black;
-      color: white;
-      padding: .25rem;
-      font-size: 12px;
-      margin-right: .5rem;
-    }
+    a {
+      width: 100%;
 
-    .title {
-      padding: .25rem;
+      .date {
+        background: black;
+        color: white;
+        padding: .25rem;
+        font-size: 12px;
+        margin-right: .5rem;
+      }
+
+      .title {
+        padding: .25rem;
+      }
     }
 
     &:hover {
-      background: black;
+      background: #eaecef;
       color: white;
       padding-left: 1rem;
     }
