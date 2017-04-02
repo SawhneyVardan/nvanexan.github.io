@@ -10,7 +10,7 @@ A lot has been written in the last couple years about [Canada's Anti-Spam Legisl
 
 Section 8(1) of CASL prohibits a person from, in the course of a commercial activity, installing or causing to be installed "a computer program on any other person’s computer system or, having so installed or caused to be installed a computer program, cause an electronic message to be sent from that computer system, unless" the person has obtained "the express consent of the owner or an authorized user of the computer system and complies with subsection 11(5) (the withdrawal of consent provision)".
 
-The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.] 
+The statute provides that a "computer program" shall have the same meaning as that in section 342.1 of the *Criminal Code*: "computer data representing instructions or statements that, when executed in a computer system, causes the computer system to perform a function".[^1] 
 
 A person is deemed to "expressly consent to the installation of a computer program" if:
 
@@ -58,7 +58,7 @@ First party content providers and third party advertising publishers will want t
 
 -----
 
-[^1]: See [http://laws-lois.justice.gc.ca/eng/acts/E-1.6/FullText.html](http://laws-lois.justice.gc.ca/eng/acts/E-1.6/FullText.html)
+[^1]: Criminal Code, R.S.C., 1985, c. C-46, s. 342.1.
 [^2]: Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/)
 [^3]: CASL, at ss. 47 to 51, 55.
 [^4]: CASL, ss. 51(1) CASL.
