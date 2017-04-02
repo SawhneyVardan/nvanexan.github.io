@@ -56,6 +56,8 @@ The court may order compensation equal to the amount of loss or damages suffered
 
 First party content providers and third party advertising publishers will want to look carefully at their current privacy policies and terms of service before July 1, 2017 to ensure that it can be reasonably inferred that users of their site, or targets of their tracking, have consented to the installation of any cookie or javascript code used for web tracking or online behavioural advertising.
 
+-----
+
 [^1]: See [http://laws-lois.justice.gc.ca/eng/acts/E-1.6/FullText.html](http://laws-lois.justice.gc.ca/eng/acts/E-1.6/FullText.html)
 [^2]: Steven Englehardt and Arvin Narayanan, "Online Tracking: A 1-million-site Measurement and Analysis", presented at the Association for Computing Machinery Conference on Computer and Communications Security 2016, [https://webtransparency.cs.princeton.edu/webcensus/](https://webtransparency.cs.princeton.edu/webcensus/)
 [^3]: CASL, at ss. 47 to 51, 55.
