@@ -152,6 +152,15 @@
   blockquote>:first-child {
     margin-top: 0;
   }
+
+  .footnotes {
+
+    a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+
+  }
 }
 
 .post-footer {
