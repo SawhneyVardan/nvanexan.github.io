@@ -25,10 +25,12 @@
     transition: all .2s ease;
     cursor: pointer;
     padding: .35rem;
+    display: flex;
+    align-items: center;
 
     a {
-      display: flex;
-      align-items: center;
+      flex: 1;
+      padding: .25rem;
     }
 
     .date {
@@ -39,11 +41,6 @@
       font-size: 12px;
       margin-right: .5rem;
       transition: all .2s ease;
-    }
-
-    .title {
-      flex: 1;
-      padding: .25rem;
     }
 
     &:hover {
