@@ -10,16 +10,16 @@
 
   @media all and (max-width: 690px) {
     flex: 0 0 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   h1 {
-    font-weight: 300;
+    font-weight: 900;
   }
 }
 
 .blog-landing-posts {
-  flex: 0 0 70%;
+  flex: 0 0 60%;
 
   @media all and (max-width: 690px) {
     flex: 0 0 100%;
