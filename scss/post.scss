@@ -3,26 +3,27 @@
   border-bottom: solid 1px #ddd;
   margin-bottom: 2rem;
   position: relative;
-  background: black;
 
   h1 {
     font-size: 8rem;
     word-wrap: break-word;
-    color: white;
-    margin-left: -10px;
-    line-height: .9;
+    color: black;
+    font-weight: 300;
 
     @media all and (max-width: 690px) {
       font-size: 4rem;
-      margin-left: -5px;
     }
   }
 
   .meta {
     padding: .5rem;
     text-align: right;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    font-size: 12px;
   }
 }
 
