@@ -3,25 +3,25 @@
   border-bottom: solid 1px #ddd;
   margin-bottom: 2rem;
   position: relative;
+  background: black;
 
   h1 {
     font-size: 6rem;
     word-wrap: break-word;
-    line-height: .8;
+    color: white;
+    margin-left: -10px;
   }
 
   .meta {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-    font-size: 12px;
-    background: black;
     padding: .5rem;
+    text-align: right;
+    background: white;
+    color: black;
   }
 }
 
 .post-content {
+  max-width: 780px;
   word-wrap: break-word;
   font-size: 16px;
   line-height: 1.5;
