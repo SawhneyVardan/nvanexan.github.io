@@ -24,6 +24,7 @@
     margin-bottom: 2px;
     transition: all .2s ease;
     cursor: pointer;
+    padding: .25rem;
 
     .date {
       background: black;
@@ -34,7 +35,7 @@
     }
 
     .title {
-
+      padding: .25rem;
     }
 
     &:hover {

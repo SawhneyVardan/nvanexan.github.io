@@ -6,7 +6,8 @@
   "author": "Nicholas Van Exan <nick.vanexan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "styles": "gulp css"
+    "styles": "gulp css",
+    "publish": "gulp css && git add -A && git commit -m 'Testing' && git push origin master"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
