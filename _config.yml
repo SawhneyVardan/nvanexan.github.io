@@ -12,6 +12,6 @@ collections:
 gems:
   - jekyll-paginate
 
-permalink: /blog/post/:year/:month/:day/:title/
+permalink: /blog/post/:title/
 paginate: 5
 paginate_path: '/blog/page/:num/'
