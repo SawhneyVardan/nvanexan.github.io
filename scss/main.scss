@@ -65,10 +65,9 @@ h1, h2, h3, p {
     border-radius: 3px;
     transition: all .2s ease;
     z-index: 1;
-
-    &:hover {
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-    }
+    display: flex;
+    flex: 1;
+    color: black;
   }
 
   @media all and (max-width: 690px) {
