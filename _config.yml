@@ -1,5 +1,6 @@
 name: Nicholas Van Exan
 markdown: kramdown
+description: Privacy lawyer and software development consultant working at the intersection of law and data in Toronto.
 
 collections:
   my_categories:
