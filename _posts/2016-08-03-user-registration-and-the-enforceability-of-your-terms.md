@@ -41,7 +41,3 @@ Many UX designers will be tempted to choose the former, as it creates less frict
 The problem, though, from a practical point of view, is that you always run the risk of a sympathetic judge in a sympathetic case looking for ways to not enforce onerous clauses, as happened in this case. If you’re at all concerned about the enforceability of your terms, you should be striving to implement at least option 2, which is generally seen by most courts as good enough.
 
 Whether you move to a model / design like option 3 will depend in part on your tolerance for risk and the nature of your product. If your app has business / corporate users, the inconvenience of forcing them to scroll past terms of service before registering is likely less of an issue. If it’s a consumer product, you’ll have to think more carefully about what you’re giving up to improve the UX of your on-boarding flow. If one of the things you might be giving up is a mandatory arbitration clause that kills the possibility of class actions, this is a fairly big concession, and one that might be worth the burden of a more cumbersome UX.
-
----
-
-*This article was written for general information purposes only. It is not intended to provide legal advice or opinions of any kind and may not be used for professional or commercial purposes.*
