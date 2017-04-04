@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="blog-landing-container" >
+<div class="blog-landing-container" >
   <div class="blog-landing-title">
     <h1>{{ page.title }}</h1>
   </div>
@@ -27,10 +27,11 @@ layout: default
       </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
       <p class="intro">{{ page.excerpt }}</p>
+      <p class="post-content">{{ content }}</p>
     </div>
-    <div class="post-content">
-      {{ content }}
-    </div>
+    <!-- <div class="post-content">
+
+    </div> -->
     <div class='post-footer'>
       <p>
         <i>This article was written for general information purposes only. It is not intended to provide legal advice or opinions of any kind and may not be used for professional or commercial purposes.</i>
@@ -40,4 +41,4 @@ layout: default
       </p>
     </div>
   </div>
-</article>
+</div>
