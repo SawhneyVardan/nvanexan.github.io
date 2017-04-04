@@ -10,19 +10,19 @@ layout: default
     <div class='post-header'>
       <span class='category-icon {{ page.category }}'>
         {% if page.category == 'privacy' %}
-        <i class="material-icons">vpn_key</i>
+        <i class="material-icons" aria-hidden="true">vpn_key</i>
         {% elsif page.category == 'litigation' %}
-        <i class="material-icons">gavel</i>
+        <i class="material-icons" aria-hidden="true">gavel</i>
         {% elsif page.category == 'security' %}
-        <i class="material-icons">security</i>
+        <i class="material-icons" aria-hidden="true">security</i>
         {% elsif page.category == 'design' %}
-        <i class="material-icons">palette</i>
+        <i class="material-icons" aria-hidden="true">palette</i>
         {% elsif page.category == 'programming' %}
-        <i class="material-icons">code</i>
+        <i class="material-icons" aria-hidden="true">code</i>
         {% elsif page.category == 'events' %}
-        <i class="material-icons">today</i>
+        <i class="material-icons" aria-hidden="true">today</i>
         {% else %}
-        <i class="material-icons">fiber_new</i>
+        <i class="material-icons" aria-hidden="true">fiber_new</i>
         {% endif %}
       </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
