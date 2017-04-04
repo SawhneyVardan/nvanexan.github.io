@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
   </div>
   <div class="blog-landing-posts">
-    <div class='post-meta'>
+    <div class='post-header'>
       <span class='category-icon {{ page.category }}'>
         {% if page.category == 'privacy' %}
         <i class="material-icons" aria-hidden="true">vpn_key</i>
@@ -26,12 +26,12 @@ layout: default
         {% endif %}
       </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
+      <p class="intro">{{ page.excerpt }}</p>
     </div>
-    <p class="post-intro">
-      {{ page.excerpt }}
-    </p>
-    <p class="post-content">
+    <p>
+    <div class="post-content">
       {{ content }}
+    </div>
     </p>
     <div class='post-footer'>
       <p>
