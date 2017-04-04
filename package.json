@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "styles": "gulp css",
-    "publish": "gulp css && git add -A && git commit -m 'Testing' && git push origin master"
+    "publish": "gulp css && git add -A && git commit -m 'publishing new draft' && git push origin master"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
