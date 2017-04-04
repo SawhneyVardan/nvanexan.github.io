@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
   </div>
   <div class="blog-landing-posts">
-    <div class='post-header'>
+    <div class='post-meta'>
       <span class='category-icon {{ page.category }}'>
         {% if page.category == 'privacy' %}
         <i class="material-icons" aria-hidden="true">vpn_key</i>
@@ -26,13 +26,13 @@ layout: default
         {% endif %}
       </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
-      <p class="intro">{{ page.excerpt }}</p>
     </div>
-    <p>
+    <p class="post-intro">
+      {{ page.excerpt }}
+    </p>
     <div class="post-content">
       {{ content }}
     </div>
-    </p>
     <div class='post-footer'>
       <p>
         <i>This article was written for general information purposes only. It is not intended to provide legal advice or opinions of any kind and may not be used for professional or commercial purposes.</i>
