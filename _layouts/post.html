@@ -8,7 +8,7 @@ layout: default
   </div>
   <div class="blog-landing-posts">
     <div class='post-header'>
-      <div class='category-icon {{ page.category }}' aria-hidden="true">
+      <span class='category-icon {{ page.category }}'>
         {% if page.category == 'privacy' %}
         <i class="material-icons" aria-hidden="true">vpn_key</i>
         {% elsif page.category == 'litigation' %}
@@ -24,7 +24,7 @@ layout: default
         {% else %}
         <i class="material-icons" aria-hidden="true">fiber_new</i>
         {% endif %}
-      </div>
+      </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
       <p class="intro">{{ page.excerpt }}</p>
     </div>
