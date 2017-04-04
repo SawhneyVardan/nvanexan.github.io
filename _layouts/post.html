@@ -27,8 +27,12 @@ layout: default
       </span>
       <p class="meta">{{ page.date | date_to_string }} {% if page.category %}&nbsp;&nbsp;/&nbsp;&nbsp; Filed under: {{ page.category }} {% endif %}</p>
       <p class="intro">{{ page.excerpt }}</p>
-      <div class="post-content">{{ content }}</div>
     </div>
+    <p>
+    <div class="post-content">
+      {{ content }}
+    </div>
+    </p>
     <div class='post-footer'>
       <p>
         <i>This article was written for general information purposes only. It is not intended to provide legal advice or opinions of any kind and may not be used for professional or commercial purposes.</i>
