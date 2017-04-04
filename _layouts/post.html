@@ -8,7 +8,7 @@ layout: default
   </div>
   <div class="blog-landing-posts">
     <div class='post-header'>
-      <div class='category-icon {{ page.category }}'>
+      <div class='category-icon {{ page.category }}' aria-hidden="true">
         {% if page.category == 'privacy' %}
         <i class="material-icons" aria-hidden="true">vpn_key</i>
         {% elsif page.category == 'litigation' %}
