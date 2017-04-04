@@ -7,8 +7,6 @@ excerpt: "A recent U.S. District Court decision regarding the enforceability of 
 description: "A recent U.S. District Court decision regarding the enforceability of Uber’s Terms of Service has given new fire to the clickwrap / browsewrap / enforceability of terms of service issue."
 ---
 
-### The Case in a Nutshell
-
 The case, [Meyer v. Kalanick, 2016 WL 4073012 (S.D.N.Y. July 29, 2016)](https://dlbjbjzgnk95t.cloudfront.net/0823000/823375/https-ecf-nysd-uscourts-gov-doc1-127118619239.pdf), began as an antitrust case against Travis Kalanick, the founder of Uber. The Plaintiff alleged that Mr. Kalanick “orchestrated and participated in an antitrust conspiracy.” Uber successfully intervened in the case. It then sought to force the case out of the courts and into private arbitration, as required under its Terms of Service. But the Court denied the motion to compel arbitration, finding fault with Uber’s contract formation process.
 
 The key facts regarding Uber’s registration / sign-up flow are as follows:
