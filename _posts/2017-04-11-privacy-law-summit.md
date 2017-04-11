@@ -3,8 +3,8 @@ layout: post
 date: 2017-04-11
 title: "Reflections on the OBA Privacy Law Summit 2017"
 category: "privacy"
-excerpt: "The Ontario Bar Association ('OBA') held its annual Privacy Law Summit last week. Here are a few of my  observations and take-aways from my attendance."
-description: "The Ontario Bar Association ('OBA') held its annual Privacy Law Summit last week. Here are a few of my observations and take-aways from my attendance."
+excerpt: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my  observations and take-aways from my attendance."
+description: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my observations and take-aways from my attendance."
 ---
 
 The OBA held a fantastic privacy law conference last week. The panels were timely and divided evenly into business law and health law topics. I attended the business law program. Among the many issues discussed and debated during the conference, there were several recurring themes:
