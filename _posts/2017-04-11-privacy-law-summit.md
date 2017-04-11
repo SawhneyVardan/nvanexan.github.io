@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-04-11
-title: "OBA Privacy Law Summit 2017"
+title: "Reflections on the OBA Privacy Law Summit 2017"
 category: "privacy"
 excerpt: "The Ontario Bar Association ('OBA') held its annual Privacy Law Summit last week. Here are a few of my  observations and take-aways from my attendance."
 description: "The Ontario Bar Association ('OBA') held its annual Privacy Law Summit last week. Here are a few of my observations and take-aways from my attendance."
