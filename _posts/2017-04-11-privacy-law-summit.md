@@ -61,7 +61,7 @@ In the mobile app world, the risk of being unable to demonstrate express consent
 
 **The key take-away here is that mobile app developers should always include their privacy policy along with their terms and conditions in their app's app store description and do as much as possible to evidence the explicit consent required for the installation of a computer program on a device. Do your best to get consent within the constraints of the app store platform.**
 
-Significantly, no one at the conference discussed the impact of s. 8(1) for web apps that have an advertising or analytics component that involves tracking users via cookies or JavaScript. My prediction is that ad-tech companies as well as first party content publishers inadvertently causing third party ad-tech companies to install malware on user devices will be feeling some heat from this provision once the private right of action comes into force this summer. Time will tell.
+Significantly, no one discussed the impact of s. 8(1) for web apps. I predict that web sites and web apps with analytics and advertising as a core element of their business will be feeling some heat from this provision once the private right of action comes into force this summer. Time will tell.
 
 ### The Illusory Pursuit of Meaningful Privacy Policies
 
