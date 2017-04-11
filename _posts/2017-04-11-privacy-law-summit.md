@@ -13,9 +13,7 @@ The OBA held a fantastic privacy law conference last week. The panels were timel
 - the privacy complexities of data analytics;
 - the interplay between regulatory investigations and litigation;
 - CASL and the privacy challenges for mobile tech; and
-- the illusory pursuit of meaningful privacy policies
-
-My thoughts and some of the key take-aways in respect of these themes are set out below.
+- the illusory pursuit of meaningful privacy policies.
 
 ### Privacy by Design - Where are the Privacy Pros?
 
@@ -65,7 +63,7 @@ In the mobile app world, the risk of being unable to demonstrate express consent
 
 Significantly, no one at the conference discussed the impact of s. 8(1) for web apps that have an advertising or analytics component that involves tracking users via cookies or JavaScript. My prediction is that ad-tech companies as well as first party content publishers inadvertently causing third party ad-tech companies to install malware on user devices will be feeling some heat from this provision once the private right of action comes into force this summer. Time will tell.
 
-## The illusory pursuit of meaningful privacy policies
+### The Illusory Pursuit of Meaningful Privacy Policies
 
 A final theme of the conference was "Privacy Policies of the Future". The discussion focused on companies that the panel thought were doing privacy policies right and wrong, and what the future of privacy policies might look like.
 
