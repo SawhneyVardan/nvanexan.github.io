@@ -3,8 +3,8 @@ layout: post
 date: 2017-04-11
 title: "Reflections on the OBA Privacy Law Summit 2017"
 category: "privacy"
-excerpt: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my  observations and take-aways from my attendance."
-description: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my observations and take-aways from my attendance."
+excerpt: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my  observations and key take-away points."
+description: "The Ontario Bar Association held its annual Privacy Law Summit last week. Here are a few of my observations and key take-away points."
 ---
 
 The OBA held a fantastic privacy law conference last week. The panels were timely and divided evenly into business law and health law topics. I attended the business law program. Among the many issues discussed and debated during the conference, there were several recurring themes:
@@ -21,7 +21,7 @@ The OBA held a fantastic privacy law conference last week. The panels were timel
 
 Dr. Cavoukian's comments are interesting because many hold the opposing view: that engineers or technologists are often unwilling or unable to implement features in a privacy-preserving way.[^1]
 
-As an engineer and a lawyer, I found Dr. Cavoukian's comments more reflective of my actual experience helping teams at large software companies implement features. Engineers can literally build anything given the requisite time, money and resources. But it's up to the product owners and product managers to define the requirements of what the engineering teams build. If a company's legal counsel, chief privacy officer or data protection officer aren't actively communicating privacy requirements to the product managers and owners, their efforts to protect their users' personal information and the company will likely amount to naught.
+As an engineer and a lawyer, I found Dr. Cavoukian's comments more reflective of my actual experience helping teams at large software companies implement features. Engineers can literally build anything given the requisite time, money and resources. But it's up to the product owners and product managers to define the requirements of what the engineering teams build. If a company's legal counsel, chief privacy officer or data protection officer aren't actively communicating privacy requirements to the product managers and owners, their efforts to protect their users' personal information and the company will likely amount to naught points.
 
 **The key take-away here is that privacy professionals can't operate in silos. They need to work directly with the teams that are building out new features of an application to ensure that privacy-related requirements are being embedded in the user stories the engineering teams are implementing.**
 
