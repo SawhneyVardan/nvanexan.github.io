@@ -13,7 +13,7 @@ The OBA held a fantastic privacy law conference last week. The panels were timel
 - the privacy complexities of data analytics;
 - the interplay between regulatory investigations and litigation;
 - CASL and the privacy challenges for mobile tech; and
-- the illusory pursuit of meaningful privacy policies.
+- the (illusory?) pursuit of meaningful privacy policies.
 
 ### Privacy by Design - Where are the Privacy Pros?
 
@@ -21,7 +21,7 @@ The OBA held a fantastic privacy law conference last week. The panels were timel
 
 Dr. Cavoukian's comments are interesting because many hold the opposing view: that engineers or technologists are often unwilling or unable to implement features in a privacy-preserving way.[^1]
 
-As an engineer and a lawyer, I found Dr. Cavoukian's comments more reflective of my actual experience helping teams at large software companies implement features. Engineers can literally build anything given the requisite time, money and resources. But it's up to the product owners and product managers to define the requirements of what the engineering teams build. If a company's legal counsel, chief privacy officer or data protection officer aren't actively communicating privacy requirements to the product managers and owners, their efforts to protect their users' personal information and the company will likely amount to naught points.
+As an engineer and a lawyer, I found Dr. Cavoukian's comments more reflective of my actual experience helping teams at large software companies implement features. Engineers can literally build anything given the requisite time, money and resources. But it's up to the product owners and product managers to define the requirements of what the engineering teams build. If a company's legal counsel, chief privacy officer or data protection officer aren't actively communicating privacy requirements to the product managers and owners, their efforts to protect their users' personal information and the company will likely amount to naught.
 
 **The key take-away here is that privacy professionals can't operate in silos. They need to work directly with the teams that are building out new features of an application to ensure that privacy-related requirements are being embedded in the user stories the engineering teams are implementing.**
 
@@ -61,7 +61,7 @@ In the mobile app world, the risk of being unable to demonstrate express consent
 
 Significantly, no one discussed the impact of s. 8(1) for web apps. I predict that web sites and web apps with analytics and advertising as a core element of their business will be feeling some heat from this provision once the private right of action comes into force this summer. Time will tell.
 
-### The Illusory Pursuit of Meaningful Privacy Policies
+### The (Illusory?) Pursuit of Meaningful Privacy Policies
 
 A final theme of the conference was "Privacy Policies of the Future". The discussion focused on companies that the panel thought were doing privacy policies right and wrong, and what the future of privacy policies might look like.
 
