@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-04-17
-title: "A Brief Primer on the GDPR: What Canadian Businesses Need to Know"
+title: "Here Comes the GDPR: What Canadian Businesses Need to Know"
 category: "privacy"
 excerpt: "The General Data Protection Regulation (GDPR) will be coming into force next May. If you haven't done so already, it's time to start mapping your data."
 description: "The General Data Protection Regulation (GDPR) will be coming into force next May. If you haven't done so already, it's time to start mapping your data."
